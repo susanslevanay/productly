@@ -47,20 +47,30 @@ nav li {
 }
 .header-content {
     display: flex;
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 10px;
+    flex-direction: column;
 }
-.header-text {
-    text-align:left
-    margin-top: 20px;
-    margin-left: 10px;
+.text-container {
+    margin-right: 20px;
 }
 .header-text h1 {
     font-weight: bold;
 }
 .image-container {
     max-width: 100px;
-    margin-left: 100px;
+    margin-left: 500px;
+}
+.get-started {
+    width: 130px;
+    height: 53px;
+    background-color: #FF9900;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 200px;
+}
+.button-container {
+    margin-top: 10px;
 }
 
