@@ -73,4 +73,6 @@ nav li {
 .button-container {
     margin-top: 10px;
 }
-
+.section-text {
+    display: flex;
+}
