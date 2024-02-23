@@ -1,78 +1,243 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-.logo {
-    width: 185.35px;
-    height: 32px;
-    margin-right: auto;
-    margin-bottom: 10px;
-}
-nav  {
-    margin-left: auto;
-}
-nav ul {
-    list-style: none;
-    display: flex;
-}
-nav li {
-    margin-right: 20px;
-}
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .logo {
+        width: 185.35px;
+        height: 32px;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    nav  {
+        margin-left: auto;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+    }
+    nav li {
+        margin-right: 20px;
+    }
 
-.buttons {
-    display: flex;
-}
+    .buttons {
+        display: flex;
+    }
 
-.buttons button {
-    margin-left: 10px;
-    width: 102px;
-    height: 46px;
-}
-.signin {
-    background-color:#FFFFFF
-    color: white;  
-    border:1px;
-    padding:8px
-    border-radius:4px; 
-}
-.signup {
-    background-color:#FF9900 ;
-    color: #FFFFFF;
-    padding: 8px;
-    border: none;
-    border-radius: 4px;
+    .buttons button {
+        margin-left: 10px;
+        width: 102px;
+        height: 46px;
+    }
+    .signin {
+        background-color:#FFFFFF
+        color: white;  
+        border:1px;
+        padding:8px
+        border-radius:4px; 
+    }
+    .signup {
+        background-color:#FF9900 ;
+        color: #FFFFFF;
+        padding: 8px;
+        border: none;
+        border-radius: 4px;
 
-}
-.header-content {
-    display: flex;
-    flex-direction: column;
-}
-.text-container {
-    margin-right: 20px;
-}
-.header-text h1 {
-    font-weight: bold;
-}
-.image-container {
-    max-width: 100px;
-    margin-left: 500px;
-}
-.get-started {
-    width: 130px;
-    height: 53px;
-    background-color: #FF9900;
-    color: white;
-    font-size: 15px;
-    border: none;
-    border-radius: 8px;
-    margin-top: 10px;
-    margin-right: 200px;
-}
-.button-container {
-    margin-top: 10px;
-}
-.section-text {
-    display: flex;
-}
+    }
+    .header-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .text-container {
+        margin-right: 20px;
+    }
+    .header-text h1 {
+        font-weight: bold;
+    }
+    .image-container {
+        max-width: 100px;
+        margin-left: 500px;
+    }
+    .get-started {
+        width: 130px;
+        height: 53px;
+        background-color: #FF9900;
+        color: white;
+        font-size: 15px;
+        border: none;
+        border-radius: 8px;
+        margin-top: 10px;
+        margin-right: 200px;
+    }
+    .button-container {
+        margin-top: 10px;
+    }
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .validation {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    .validation-left {
+        width: 520px;
+        height: 330px;
+    }
+    .validation-left p {
+        width: 360px;
+        height: 55px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+        font-size: 13px;
+    }
+    .validation-left h4 {
+        margin-left: 20px;
+        width: 520px;
+        height: 40px;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 24px;
+        letter-spacing: 0;
+    }
+    .validation-left h5 {
+        margin-top: 0px;
+        margin-left: 20px;
+        width: 520px;
+        height: 20px;
+        font-size: 16px;
+        font-weight:bold;
+    }
+    .product-mng {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    .product-mngleft img {
+        max-width: 500px;
+        height: 400px;
+        margin-top: 90px;
+        margin-left: 20px;
+    }
+    .right-prod-mng {
+        width: 520px;
+        height: 330px;
+        margin-top: 30px;
+    }
+    .right-prod-mng h6 {
+        margin-top: 90px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .right-prod-mng h2 {
+        margin-left: 20px;
+        width: 520px;
+        height: 40px;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 25px;
+        letter-spacing: 0;
+    }
+    .right-prod-mng p {
+        width: 360px;
+        height: 55px;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .benefits {
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .marketers-section {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    .left-marketers-section {
+        width: 520px;
+        height: 330px;
+        margin-top: 140px;
+    }
+    .left-marketers-section h5 {
+        margin-top: 90px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .left-marketers-section h2 {
+        margin-top: 0px;
+        margin-left: 20px;
+        width: 520px;
+        height: 40px;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 24px;
+        letter-spacing: 0;
+    }
+    .left-marketers-section p {
+        width: 360px;
+        height: 55px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+    .right-marketers-section img {
+        max-width: 500px;
+        height: 400px;
+        margin-top: 150px;
+        margin-left: 20px;
+        margin-bottom: 100px;
+    }
+    .row { 
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .productly-footer {
+        display: flex;
+        justify-content: center;
+        gap: 0;
+        padding: 90px;
+    }
+    .footer-ul {
+        list-style: none;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-col {
+        font-size: 13px;
+        color:blue;
+        margin-bottom: 30px;
+        font-weight: 500;
+        position: relative;
+    }
+    .productly-logo {
+        display: flex;
+        justify-content: center;
+        margin-right: 200px;
+    }
+    .footer-col ul li {
+        margin-bottom: 20px;
+        margin-right: 100px;
+    }
+    .footer-col ul li a {
+        font-size: 15px;
+        text-decoration: none;
+        font-weight: 300;
+        display: block;
+    }
+    .primary-button {
+        background: #FF9900;
+        color: antiquewhite;
+        border-radius: 3px;
+        font-weight: 500;
+        width: 100px;
+    }
